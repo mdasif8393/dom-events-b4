@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Elements by CLass Name</title>
+</head>
+<body>
+    <article id='first-article'>
+        <h3 >article-3</h3>
+        <p class="author">Writer</p>
+        <p class = 'description'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quia inventore laudantium voluptatum repellendus ducimus minima beatae officia in! Quaerat repellendus ullam dignissimos, cumque reiciendis nobis provident veritatis! Dignissimos, facilis.</p>
+        
+    </article>
+
+    <article class='special'>
+        <h3 >article-3</h3>
+        <p class="author">Writer</p>
+        <p class = 'description'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quia inventore laudantium voluptatum repellendus ducimus minima beatae officia in! Quaerat repellendus ullam dignissimos, cumque reiciendis nobis provident veritatis! Dignissimos, facilis.</p>
+        
+    </article>
+
+    <article class='special'>
+        <h3 >article-3</h3>
+        <p class="author">Writer</p>
+        <p class = 'description'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quia inventore laudantium voluptatum repellendus ducimus minima beatae officia in! Quaerat repellendus ullam dignissimos, cumque reiciendis nobis provident veritatis! Dignissimos, facilis.</p>
+        
+    </article>
+
+    <script>
+        // let a = document.getElementsByClassName('author');
+        // for (let i =0; i<a.length; i++){
+        //     var lekhok = a[i];
+        //     lekhok.style.backgroundColor = 'red';
+        //     lekhok.innerHTML = "holo"
+        // }
+
+        // let a = document.querySelectorAll('.special h3');
+        // for (let i =0; i<a.length; i++){
+        //     let b = a[i];
+        //     b.style.backgroundColor = 'blue';
+        //     b.innerHTML = 'Lekhok' +(i+1);
+        //     b.style.margin = '10px';
+        //     b.style.border = '3px solid red';
+        // }
+        // document.querySelector('h3').setAttribute('title', 'hello');
+
+        // let article = document.querySelector('#first-article');
+        // let p = document.createElement('p');
+        // p.innerHTML = 'Create by JS';
+        // article.appendChild(p);
+
+        const article = document.getElementById('first-article');
+        let p = document.createElement('p');
+        p.innerHTML= 'hhhhhhh';
+        article.appendChild(p);
+        
+    </script>
+</body>
+</html>
